@@ -66,7 +66,7 @@ It includes **login authentication**, **CRUD operations**  to visualize employee
    );
 
 
-## 3. Create Procedures
+##  Create Procedures
    
 -- Get all employees
 CREATE PROCEDURE sp_GetEmployees
@@ -113,7 +113,7 @@ BEGIN
     WHERE EmployeeId=@EmployeeId;
 END;
 GO
-
+---
 
 ## ⚡ API Endpoints
 
@@ -126,6 +126,7 @@ GO
 | DELETE | /api/Employee/{id} | Delete employee    |
 | POST   | /api/Auth/Login    | User login         |
 
+---
 
 ## 🧩 React Setup
 
@@ -138,6 +139,6 @@ npm install
     npm start
     
 Open your browser at http://localhost:3000 to use the application.
-
+---
 
 
