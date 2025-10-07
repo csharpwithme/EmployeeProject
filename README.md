@@ -7,7 +7,7 @@ It includes **login authentication**, **CRUD operations**  to visualize employee
 
 ## 🚀 Features
 
-✅ User Login (Authentication)  
+✅ User Login
 ✅ View All Employees  
 ✅ Add, Edit, and Delete Employee Details  
 ✅ Search by Name or Department   
