@@ -66,7 +66,7 @@ It includes **login authentication**, **CRUD operations**  to visualize employee
    );
 
 
-##  Create Procedures
+   Create Procedures
    
 -- Get all employees
 CREATE PROCEDURE sp_GetEmployees
@@ -114,25 +114,9 @@ BEGIN
 END;
 GO
 
-
 ---
 
-## ⚙️ Technologies Used
-
-### Backend
-- **ASP.NET Core Web API** (.NET 6 or above)
-- **SQL Server** (Stored Procedures)
-- **Entity Framework Core**
-- **C#**
-
-### Frontend
-- **React.js**
-- **Axios** (for API calls)
-- **Bootstrap 5**
-
----
-
-## ⚡ API Endpoints
+### ⚡ API Endpoints
 
 | Method | Endpoint           | Description        |
 | ------ | ------------------ | ------------------ |
@@ -145,7 +129,7 @@ GO
 
 ---
 
-## 🧩 React Setup
+### 🧩 React Setup
 
 1️⃣ Install dependencies
 
