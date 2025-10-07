@@ -20,22 +20,23 @@ It includes **login authentication**, **CRUD operations**  to visualize employee
 
 EmployeeProject/
 │
-├── EmployeeAPI/ ← ASP.NET Core Web API
-│ ├── Controllers/
-│ ├── Models/
-│ ├── Repository/
-│ ├── screenshots/
-│ │ ├── Login.jpg
-│ │ ├── Dashboard.jpg
-│ │ ├── AddEmployee.jpg
-│ │ └── EditEmployee.jpg
-│ └── README.md
+├── EmployeeAPI/              ← ASP.NET Core Web API
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Repository/
+│   ├── screenshots/
+│   │   ├── Login.jpg
+│   │   ├── Dashboard.jpg
+│   │   ├── ADD.jpg
+│   │   └── Chart.jpg
+│   └── README.md
 │
-└── employee-dashboard/ ← React Frontend
-├── src/
-├── public/
-├── package.json
-└── README.md
+└── employee-dashboard/       ← React Frontend
+    ├── src/
+    ├── public/
+    ├── package.json
+    └── README.md
+
 ---
 
 ## 🖼️ Application Screenshots
@@ -84,6 +85,7 @@ EmployeeProject/
        Department NVARCHAR(100),
        Salary DECIMAL(18,2)
    );
+   
 3. Create Procedures
 
 CREATE PROCEDURE sp_GetEmployees
@@ -129,13 +131,14 @@ GO
 
 
 ⚡ API Endpoints
-Method	Endpoint	Description
-GET	/api/Employee	Get all employees
-GET	/api/Employee/{id}	Get employee by ID
-POST	/api/Employee	Add new employee
-PUT	/api/Employee/{id}	Update employee
-DELETE	/api/Employee/{id}	Delete employee
-POST	/api/Auth/Login	User login
+
+Method	Endpoint	       Description
+GET	 /api/Employee	       Get all employees
+GET	 /api/Employee/{id}	 Get employee by ID
+POST	 /api/Employee	       Add new employee
+PUT	 /api/Employee/{id}	 Update employee
+DELETE	/api/Employee/{id} Delete employee
+POST	 /api/Auth/Login	     User login
 
 🧩 React Setup
 1️⃣ Install dependencies
@@ -144,16 +147,7 @@ npm install
 
 2️⃣ Run the React app
 npm start
-
-App runs at http://localhost:3000
-
-🔧 Backend Setup (Web API)
-1️⃣ Restore dependencies
-cd EmployeeAPI
-dotnet restore
-
-2️⃣ Run the API
-dotnet run
+Open your browser at http://localhost:3000 to use the application.
 
 
-API runs at https://localhost:7280
+
