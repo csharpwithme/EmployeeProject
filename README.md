@@ -44,16 +44,16 @@ EmployeeProject/
 ![Login](EmployeeAPI/EmployeeAPI/screenshots/Login.jpg)  
 
 **Dashboard**  
-![Dashboard](EmployeeAPI/screenshots/Dashboard.jpg)  
+![Dashboard](EmployeeAPI/EmployeeAPI/screenshots/Dashboard.jpg)  
 
 **Add Employee**  
-![Add Employee](EmployeeAPI/screenshots/AddEmployee.jpg)  
+![Add Employee](EmployeeAPI/EmployeeAPI/screenshots/AddEmployee.jpg)  
 
 **Edit Employee**  
-![Edit Employee](EmployeeAPI/screenshots/EditEmployee.jpg)  
+![Edit Employee](EmployeeAPI/EmployeeAPI/screenshots/EditEmployee.jpg)  
 
 ### 🔹 View Employee
-![View Employee](EmployeeAPI/screenshots/ViewEmployee.jpg)
+![View Employee](EmployeeAPI/EmployeeAPI/screenshots/ViewEmployee.jpg)
 
 ---
 
