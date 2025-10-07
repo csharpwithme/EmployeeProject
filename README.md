@@ -54,8 +54,8 @@ It includes **login authentication**, **CRUD operations**  to visualize employee
 
 ## 🗄️ Database Setup
 
-1. Create a database named `EmployeeDB`.
-2. Add a table:
+## 1. Create a database named `EmployeeDB`.
+## 2. Add a table:
    ```sql
    CREATE TABLE Employees (
        EmployeeId INT IDENTITY(1,1) PRIMARY KEY,
@@ -64,8 +64,9 @@ It includes **login authentication**, **CRUD operations**  to visualize employee
        Department NVARCHAR(100),
        Salary DECIMAL(18,2)
    );
-   
-3. Create Stored Procedures
+
+
+## 3. Create Procedures
    
 -- Get all employees
 CREATE PROCEDURE sp_GetEmployees
@@ -114,7 +115,7 @@ END;
 GO
 
 
-⚡ API Endpoints
+## ⚡ API Endpoints
 
 | Method | Endpoint           | Description        |
 | ------ | ------------------ | ------------------ |
@@ -126,13 +127,16 @@ GO
 | POST   | /api/Auth/Login    | User login         |
 
 
-🧩 React Setup
+## 🧩 React Setup
+
 1️⃣ Install dependencies
+
 cd EmployeeReactApp
 npm install
 
 2️⃣ Run the React app
-npm start
+    npm start
+    
 Open your browser at http://localhost:3000 to use the application.
 
 
