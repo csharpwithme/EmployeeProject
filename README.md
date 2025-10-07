@@ -16,28 +16,7 @@ It includes **login authentication**, **CRUD operations**  to visualize employee
 
 ---
 
-## 🏗️ Project Structure
 
-EmployeeProject/
-│
-├── EmployeeAPI/              ← ASP.NET Core Web API
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Repository/
-│   ├── screenshots/
-│   │   ├── Login.jpg
-│   │   ├── Dashboard.jpg
-│   │   ├── ADD.jpg
-│   │   └── Chart.jpg
-│   └── README.md
-│
-└── employee-dashboard/       ← React Frontend
-    ├── src/
-    ├── public/
-    ├── package.json
-    └── README.md
-
----
 
 ## 🖼️ Application Screenshots
 
