@@ -41,7 +41,7 @@ EmployeeProject/
 ## 🖼️ Application Screenshots
 
 **Login Page**  
-![Login](EmployeeAPI/screenshots/Login.jpg)  
+![Login](EmployeeAPI/EmployeeAPI/screenshots/Login.jpg)  
 
 **Dashboard**  
 ![Dashboard](EmployeeAPI/screenshots/Dashboard.jpg)  
