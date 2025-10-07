@@ -1,0 +1,14 @@
+# ASP.NET Core
+bin/
+obj/
+*.user
+*.vs
+*.db
+
+# React
+node_modules/
+build/
+.env
+
+# General
+*.log
