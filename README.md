@@ -115,7 +115,22 @@ END;
 GO
 
 
+---
 
+## ⚙️ Technologies Used
+
+### Backend
+- **ASP.NET Core Web API** (.NET 6 or above)
+- **SQL Server** (Stored Procedures)
+- **Entity Framework Core**
+- **C#**
+
+### Frontend
+- **React.js**
+- **Axios** (for API calls)
+- **Bootstrap 5**
+
+---
 
 ## ⚡ API Endpoints
 
