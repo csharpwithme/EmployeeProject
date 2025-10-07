@@ -65,8 +65,9 @@ It includes **login authentication**, **CRUD operations**  to visualize employee
        Salary DECIMAL(18,2)
    );
    
-3. Create Procedures
-
+3. Create Stored Procedures
+   
+-- Get all employees
 CREATE PROCEDURE sp_GetEmployees
 AS
 BEGIN
@@ -74,6 +75,7 @@ BEGIN
 END;
 GO
 
+-- Add new employee
 CREATE PROCEDURE sp_AddEmployee
     @Name NVARCHAR(100),
     @Email NVARCHAR(100),
@@ -86,6 +88,7 @@ BEGIN
 END;
 GO
 
+-- Update employee
 CREATE PROCEDURE sp_UpdateEmployee
     @EmployeeId INT,
     @Name NVARCHAR(100),
@@ -100,24 +103,28 @@ BEGIN
 END;
 GO
 
+-- Delete employee
 CREATE PROCEDURE sp_DeleteEmployee
     @EmployeeId INT
 AS
 BEGIN
-    DELETE FROM Employees WHERE EmployeeId=@EmployeeId;
+    DELETE FROM Employees
+    WHERE EmployeeId=@EmployeeId;
 END;
 GO
 
 
 ⚡ API Endpoints
 
-Method	Endpoint	       Description
-GET	 /api/Employee	       Get all employees
-GET	 /api/Employee/{id}	 Get employee by ID
-POST	 /api/Employee	       Add new employee
-PUT	 /api/Employee/{id}	 Update employee
-DELETE	/api/Employee/{id} Delete employee
-POST	 /api/Auth/Login	     User login
+| Method | Endpoint           | Description        |
+| ------ | ------------------ | ------------------ |
+| GET    | /api/Employee      | Get all employees  |
+| GET    | /api/Employee/{id} | Get employee by ID |
+| POST   | /api/Employee      | Add new employee   |
+| PUT    | /api/Employee/{id} | Update employee    |
+| DELETE | /api/Employee/{id} | Delete employee    |
+| POST   | /api/Auth/Login    | User login         |
+
 
 🧩 React Setup
 1️⃣ Install dependencies
