@@ -18,47 +18,39 @@ It includes **login authentication**, **CRUD operations**  to visualize employee
 
 ## 🏗️ Project Structure
 
-EmployeeCRUDApp/
+EmployeeProject/
 │
-├── EmployeeAPI/ # ASP.NET Core Web API
+├── EmployeeAPI/ ← ASP.NET Core Web API
 │ ├── Controllers/
-│ │ └── EmployeeController.cs
-│ │ └── AuthController.cs
 │ ├── Models/
-│ │ └── Employee.cs
-│ ├── Data/
-│ │ └── EmployeeDbContext.cs
-│ ├── appsettings.json
-│ └── Program.cs
+│ ├── Repository/
+│ ├── screenshots/
+│ │ ├── Login.jpg
+│ │ ├── Dashboard.jpg
+│ │ ├── AddEmployee.jpg
+│ │ └── EditEmployee.jpg
+│ └── README.md
 │
-├── EmployeeReactApp/ # React Frontend
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Login.js
-│ │ │ └── EmployeeDashboard.js
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── package.json
-│ └── public/
-│
+└── employee-dashboard/ ← React Frontend
+├── src/
+├── public/
+├── package.json
 └── README.md
-
-
 ---
 
 ## 🖼️ Application Screenshots
 
-### 🔹 Login Page
-![Login Page](EmployeeAPI/screenshots/Login.jpg)
+**Login Page**  
+![Login](EmployeeAPI/screenshots/Login.jpg)  
 
-### 🔹 Dashboard
-![Dashboard](EmployeeAPI/screenshots/Dashboard.jpg)
+**Dashboard**  
+![Dashboard](EmployeeAPI/screenshots/Dashboard.jpg)  
 
-### 🔹 Add Employee
-![Add Employee](EmployeeAPI/screenshots/AddEmployee.jpg)
+**Add Employee**  
+![Add Employee](EmployeeAPI/screenshots/AddEmployee.jpg)  
 
-### 🔹 Edit Employee
-![Edit Employee](EmployeeAPI/screenshots/EditEmployee.jpg)
+**Edit Employee**  
+![Edit Employee](EmployeeAPI/screenshots/EditEmployee.jpg)  
 
 ### 🔹 View Employee
 ![View Employee](EmployeeAPI/screenshots/ViewEmployee.jpg)
